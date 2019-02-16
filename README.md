@@ -1,5 +1,5 @@
-# Node js app deployment on Heroku Server
-NOTE: ALL COMMANDS NEED SHOULD BE RUN FROM ROOT OF YOUR PROJRCT USING CMD.
+#Node js app deployment on Heroku Server
+NOTE: ALL COMMANDS NEED TO BE RUN FROM ROOT OF YOUR PROJRCT USING CMD.
 
 Steps to Deploy:
 
@@ -20,14 +20,14 @@ Steps to Deploy:
    (heroku rename new_name)
    
 // My Folder Structure:
-    ==> .env --> This file will contain ==> PORT = 8081 --> For my application i used port 8081 you can also used the same if this port is     free
+    ==> .env --> This file will contain ==> PORT = 8081 --> For my application i used port 8081 you can also use the same if this port           is free
     ==> .gitignore to ignore files from getting added to commit ==> This file will contain ==> /node_modules package-lock.json /.env
     ==> Package.json
     ==> Procfile
     ==> Server.js (Entry Point)
    
 9. Now run this command (git add .) to add file to commit.
-10. The commit these files by runnig this command (git commit -m "Heroku Deployment")
+10. Commit these files by runnig this command (git commit -m "Heroku Deployment")
 11. Now Push the changes to the server ==> Run this command (git push heroku master) ==> After that, you can see that we have               successfully deployed our application to heroku.
 12.Now run this command (heroku open) to open the application in live.
 
